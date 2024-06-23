@@ -1,9 +1,9 @@
 const func1 = (a: number) => (b: number) => {
     console.log(a)
-
-    return b
 }
 
 export const higherOrderFunctionBasic = () => {
-    func1(1)
+    const a = func1(1)
+
+    console.log(a)
 }
