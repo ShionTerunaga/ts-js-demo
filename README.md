@@ -1,6 +1,10 @@
-# js-and-ts-study
+# `YamadaUI`の中身検証コード
 
-To install dependencies:
+## 概要
+
+`YamadaUI`の中身を読む上で不明な点はここのコードに起こしていく
+
+## install 方法
 
 ```bash
 bun install
@@ -11,5 +15,3 @@ To run:
 ```bash
 bun run index.ts
 ```
-
-This project was created using `bun init` in bun v1.1.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
