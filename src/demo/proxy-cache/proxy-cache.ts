@@ -1,14 +1,4 @@
-export type funcType = {
-    a: string
-    b: string
-    c: string
-}
-
-type resType1 = {
-    [T in keyof funcType]: (str: keyof funcType) => string
-}
-
-type resType2 = (str: keyof funcType) => string
+import type { funcType, resType1, resType2 } from "./proxy-cache.type"
 
 const func = (str: keyof funcType): string => {
     return `${str}-${str}`
