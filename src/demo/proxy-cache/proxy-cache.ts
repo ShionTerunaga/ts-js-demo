@@ -15,6 +15,7 @@ const proxyFunc = () => {
         get: (_target, str: keyof funcType) => {
             if (!cache.has(str)) {
                 const ans = func(str)
+
                 cache.set(str, ans)
             }
 
