@@ -1,5 +1,5 @@
 export const recordSample = () => {
-    const data: Dict<any> = {}
+    const data: Dict = {}
 
     data["a"] = 1
     data["b"] = true
