@@ -1,4 +1,6 @@
+import { filterObjectMain } from "../sample/filterObject"
 import { higherOrderFunctionBasic } from "../sample/higher-order-function"
+import { jsIn } from "../sample/js-in"
 import { proxy } from "../sample/proxy"
 import { proxyCall } from "../sample/proxy-cache"
 import { recordSample } from "../sample/record"
@@ -9,6 +11,8 @@ export const sectionValue: sectionValueType[] = [
     { name: "高階関数", value: "proxyCache" },
     { name: "proxyキャッシュ編", value: "higherFunc" },
     { name: "record(YamadaUIならDict)", value: "record" },
+    { name: "JSの`in`について", value: "in" },
+    { name: "filterObjectについて", value: "filterObject" },
 ]
 
 export const topic: topicType[] = [
@@ -27,5 +31,13 @@ export const topic: topicType[] = [
     {
         key: "record",
         processing: () => recordSample(),
+    },
+    {
+        key: "in",
+        processing: () => jsIn(),
+    },
+    {
+        key: "filterObject",
+        processing: () => filterObjectMain(),
     },
 ]
