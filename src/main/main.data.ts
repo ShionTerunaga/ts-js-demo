@@ -1,12 +1,14 @@
-import { higherOrderFunctionBasic } from "../demo/higher-order-function"
-import { proxy } from "../demo/proxy"
-import { proxyCall } from "../demo/proxy-cache"
+import { higherOrderFunctionBasic } from "../sample/higher-order-function"
+import { proxy } from "../sample/proxy"
+import { proxyCall } from "../sample/proxy-cache"
+import { recordSample } from "../sample/record"
 import type { sectionValueType, topicType } from "./main.type"
 
 export const sectionValue: sectionValueType[] = [
     { name: "proxy基礎編", value: "proxy" },
     { name: "高階関数", value: "proxyCache" },
     { name: "proxyキャッシュ編", value: "higherFunc" },
+    { name: "record(YamadaUIならDict)", value: "record" },
 ]
 
 export const topic: topicType[] = [
@@ -21,5 +23,9 @@ export const topic: topicType[] = [
     {
         key: "proxyCache",
         processing: () => proxyCall(),
+    },
+    {
+        key: "record",
+        processing: () => recordSample(),
     },
 ]
