@@ -1,5 +1,5 @@
 import { aboutUndefined } from "../sample/about-undefined"
-import { filterObjectMain } from "../sample/filterObject"
+import { filterObjectMain } from "../sample/filter-object"
 import { higherOrderFunctionBasic } from "../sample/higher-order-function"
 import { jsIn } from "../sample/js-in"
 import { proxy } from "../sample/proxy"
