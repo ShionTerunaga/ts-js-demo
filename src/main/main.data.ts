@@ -1,3 +1,4 @@
+import { aboutUndefined } from "../sample/about-undefined"
 import { filterObjectMain } from "../sample/filterObject"
 import { higherOrderFunctionBasic } from "../sample/higher-order-function"
 import { jsIn } from "../sample/js-in"
@@ -13,6 +14,7 @@ export const sectionValue: sectionValueType[] = [
     { name: "record(YamadaUIならDict)", value: "record" },
     { name: "JSの`in`について", value: "in" },
     { name: "filterObjectについて", value: "filterObject" },
+    { name: "undefinedの判定", value: "undefined" },
 ]
 
 export const topic: topicType[] = [
@@ -39,5 +41,9 @@ export const topic: topicType[] = [
     {
         key: "filterObject",
         processing: () => filterObjectMain(),
+    },
+    {
+        key: "undefined",
+        processing: () => aboutUndefined(),
     },
 ]
