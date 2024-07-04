@@ -1,8 +1,6 @@
 import { isUndefined } from "./about-undefined"
 
 export const aboutUndefined = () => {
-    const undefined = 1
-
     console.log("引数にundefinedを入れる場合")
 
     console.log(isUndefined(undefined))
