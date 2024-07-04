@@ -16,34 +16,3 @@ export const sectionValue: sectionValueType[] = [
     { name: "filterObjectについて", value: "filterObject" },
     { name: "undefinedの判定", value: "undefined" },
 ]
-
-export const topic: topicType[] = [
-    {
-        key: "proxy",
-        processing: () => proxy(),
-    },
-    {
-        key: "higherFunc",
-        processing: () => higherOrderFunctionBasic(),
-    },
-    {
-        key: "proxyCache",
-        processing: () => proxyCall(),
-    },
-    {
-        key: "record",
-        processing: () => recordSample(),
-    },
-    {
-        key: "in",
-        processing: () => jsIn(),
-    },
-    {
-        key: "filterObject",
-        processing: () => filterObjectMain(),
-    },
-    {
-        key: "undefined",
-        processing: () => aboutUndefined(),
-    },
-]

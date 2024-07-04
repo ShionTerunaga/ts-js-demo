@@ -1,5 +1,6 @@
 import { select } from "@inquirer/prompts"
-import { sectionValue, topic } from "./main.data"
+import { sectionValue } from "./mainSection.data"
+import { topic } from "./mainTopic.data"
 
 const selectSection = async () => {
     const section = await select({
