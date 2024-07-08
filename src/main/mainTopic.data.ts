@@ -1,4 +1,5 @@
 import { aboutUndefined } from "../sample/about-undefined"
+import { assignAfterMain } from "../sample/assign-after/assign-after.main"
 import { filterObjectMain } from "../sample/filter-object"
 import { higherOrderFunctionBasic } from "../sample/higher-order-function"
 import { jsIn } from "../sample/js-in"
@@ -35,5 +36,9 @@ export const topic: topicType[] = [
     {
         key: "undefined",
         processing: () => aboutUndefined(),
+    },
+    {
+        key: "afterAssign",
+        processing: () => assignAfterMain(),
     },
 ]

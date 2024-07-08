@@ -8,4 +8,5 @@ export const sectionValue: sectionValueType[] = [
     { name: "JSの`in`について", value: "in" },
     { name: "filterObjectについて", value: "filterObject" },
     { name: "undefinedの判定", value: "undefined" },
+    { name: "afterAssignについて", value: "afterAssign" },
 ]
