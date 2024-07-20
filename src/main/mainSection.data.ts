@@ -9,4 +9,5 @@ export const sectionValue: sectionValueType[] = [
     { name: "filterObjectについて", value: "filterObject" },
     { name: "undefinedの判定", value: "undefined" },
     { name: "afterAssignについて", value: "afterAssign" },
+    { name: "isについて", value: "is" },
 ]
