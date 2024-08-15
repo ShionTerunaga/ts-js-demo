@@ -7,6 +7,7 @@ import { jsIn } from "../sample/js-in"
 import { proxy } from "../sample/proxy"
 import { proxyCall } from "../sample/proxy-cache"
 import { recordSample } from "../sample/record"
+import { validationMain } from "../sample/validation"
 import type { topicType } from "./main.type"
 
 export const topic: topicType[] = [
@@ -45,5 +46,9 @@ export const topic: topicType[] = [
     {
         key: "is",
         processing: () => isMain(),
+    },
+    {
+        key: "match",
+        processing: () => validationMain(),
     },
 ]
